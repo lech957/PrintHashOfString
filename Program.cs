@@ -21,7 +21,7 @@ namespace PrintHashOfString
             
 
             hashAlgorithms hashAlg;
-            Console.WriteLine("Hashalorithms: MD5 (0), SHA1 (1), SHA256 (2), SHA384 (3), SHA512 (4)");
+            Console.WriteLine("Hashalgorithms: MD5 (0), SHA1 (1), SHA256 (2), SHA384 (3), SHA512 (4)");
             var algC=Console.ReadKey(true);
             while (!Char.IsDigit(algC.KeyChar) || int.Parse(algC.KeyChar.ToString())<0 || int.Parse(algC.KeyChar.ToString())>4)
             {
